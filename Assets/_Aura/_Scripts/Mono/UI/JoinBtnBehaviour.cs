@@ -5,8 +5,5 @@ using UnityEngine;
 
 public class JoinBtnBehaviour : MonoBehaviour
 {
-    public void HandleJoinServer()
-    {
-        NetworkManager.Singleton.StartClient();
-    }
+ 
 }
